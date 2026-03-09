@@ -14,7 +14,7 @@ Today i am going to tell you my approach in this project what my mind says about
 - At the root level i have made a STORY_LIFETIME variable the for 24 hours but you can change it to (15000) 15 sec, means now stories are autodeleted after 15 sec.
 -i also made a function (removeExpiredStories) which i have use 2 time in useEffect one when the page is mount, second after every (60 * 1000)
  1 minute you can also change this time to less that  STORY_LIFETIME . this functions simple runs in every 1 mintute to check wether any story is expired or not.
- - i have manged localStorage in the same context
+ - i have managed localStorage in the same context.
 
  ## Creating stryNavigation
  - in this component i have simple get the functions from the context api that we have made earlier that are (stories, addStory, clearStories).
