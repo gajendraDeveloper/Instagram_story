@@ -1,5 +1,5 @@
 import React from "react";
-import { useStory } from "../context/storyContext";
+import { useStory } from "../context/StoryContext";
 
 const FullView = ({ currentStoryIndex, setCurrentStoryIndex }) => {
   const { stories, deleteStory } = useStory();

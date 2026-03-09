@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useStory } from "../context/storyContext.jsx";
+import { useStory } from "../context/StoryContext.jsx";
 import FullView from "./FullView.jsx";
 
 const StoryNavigation = () => {
